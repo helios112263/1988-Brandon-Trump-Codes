@@ -1,0 +1,344 @@
+campaignTrail_temp.election_json = [
+    {
+        "model": "campaign_trail.election",
+        "pk": 20,
+        "fields": {
+            "year": 2016,
+            "display_year": "1988 Brandon",
+            "summary": "<div style='overflow-y:scroll;height:200px;'><p>After eight popular years, President Ronald Reagan is set to leave behind a legacy of strident conservatism and a transformed America, and it is up to the two men vying to succeed him to either continue Reagan’s vision or end it. Vice President George Bush has fought off a tougher than expected primary fight and stands at the head of the Republican Party. Emerging from a crowded field of competitors, Delaware Senator Joe Biden uses his youthful energy and determination to forge a new path for the struggling Democratic Party.</p><p>Despite Reagan’s popularity, the litany of scandals surrounding his administration such as Iran-Contra, and the growing economic divide between the wealthy and the middle class that have been interpreted as the failure of Reaganomics have caused many Americans to turn their backs on Reagan, and look to both the Democrats and the Republicans to show America a new way forward, either in the form of the more moderate Bush or via the liberal views of Biden. While it is clear that the Reagan Era seems to be coming to an end, it is unclear exactly who and what will take that place to lead America into a new decade and forge its policies for the next century.</p><p>Will America elect Bush as a continuation of Reagan’s policies or will they give the new age politics of Biden a shot?</p></li></ul></p></div>\n",
+            "image_url": "https://i.imgur.com/s8WG5FM.jpg",
+            "winning_electoral_vote_number": 270,
+            "advisor_url": "https://i.imgur.com/0Lld9OG.jpg",
+            "recommended_reading": "<ul>\n<li><a href=https://www.chicagotribune.com/opinion/editorials/ct-edit-chicago-tribune-biden-endorsement-20200925-lnyxsb5qvrftnjjmj3rnzj33jy-story.html>Our Case For Joe Biden</a></li>\n<li><a href=https://nationalinterest.org/feature/case-trump-166808>The Case For Trump</a></li>\n<li><a href=https://www.npr.org/2020/11/18/935730100/how-biden-won-ramping-up-the-base-and-expanding-margins-in-the-suburbs>How Biden Won: Ramping Up The Base And Expanding Margins In The Suburbs</a></li>\n<li><a href=https://www.prospectmagazine.co.uk/politics/donald-trump-joe-biden-us-election-almost-win-votes-concede>Why Did Trump Almost Win?</a></li>\n<li><a href=https://www.hoover.org/research/no-evidence-voter-fraud-guide-statistical-claims-about-2020-election>No Evidence For Voter Fraud: A Guide To Statistical Claims About The 2020 Election</a></li>\n</ul>",
+            "has_visits": 1,
+            "no_electoral_majority_image": "../static/images/2012-no-majority.jpg"
+        }
+    }
+]
+
+campaignTrail_temp.temp_election_list = [
+    {
+        "id": 20,
+        "year": 2016,
+        "is_premium": 0,
+        "display_year": "1988 Brandon"
+    }
+]
+
+campaignTrail_temp.credits = "the OG 1988 Biden Team + Me for the VPs & New Writing"
+
+campaignTrail_temp.global_parameter_json = [
+    {
+        "model": "campaign_trail.global_parameter",
+        "pk": 1,
+        "fields": {
+            "vote_variable": 1.125,
+            "max_swing": 0.12,
+            "start_point": 0.94,
+            "candidate_issue_weight": 10,
+            "running_mate_issue_weight": 3,
+            "issue_stance_1_max": -0.71,
+            "issue_stance_2_max": -0.3,
+            "issue_stance_3_max": -0.125,
+            "issue_stance_4_max": 0.125,
+            "issue_stance_5_max": 0.3,
+            "issue_stance_6_max": 0.71,
+            "global_variance": 0.01,
+            "state_variance": 0.005,
+            "question_count": 25,
+            "default_map_color_hex": "#C9C9C9",
+            "no_state_map_color_hex": "#999999"
+        }
+    }
+]
+
+campaignTrail_temp.candidate_json = [
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 153,
+        "fields": {
+            "first_name": "Joe",
+            "last_name": "Biden",
+            "election": 20,
+            "party": "Democratic",
+            "state": "Delaware",
+            "priority": 1,
+            "description": "<div style='overflow-y:scroll;height:200px;'<p><p>Despite being only 45 years of age, Joseph R. Biden Jr. has had a long and storied political career. First elected to the Senate in 1972 before turning 30 even as Richard Nixon carried Delaware in the concurrent election by twenty points, and immediately became a rising star, even as his wife Neilia and infant daughter Naomi were tragically killed in a car accident. In the Senate, Biden has positioned himself as part of the mainstream of the Democratic Party with a moderate reputation, and has gained national attention as the Chair of the Judiciary Committee and as an outspoken voice on foreign policy.</p><p>Having declined a run in 1984 and passed over for VP that year, Biden announced his candidacy for the 1988 election and quickly became a frontrunner for the nomination, eventually winning the primary with a combination of his energetic and fiery speeches and warm, folksy personality. While Biden does have some scandals and has a tendency to make gaffes on the campaign trail, there seems to be little question that Biden is a man made for the presidency, and if he is able to solidly unify the Democrats behind him and take George Bush to task for the malarkies of the Reagan Administration, Biden will be the man taking the oath of office next January.</p></div>",
+            "color_hex": "#0043b0",
+            "secondary_color_hex": null,
+            "is_active": 1,
+            "image_url": "https://i.imgur.com/1ZmJ9lo.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50000,
+        "fields": {
+            "first_name": "Donald J.",
+            "last_name": "Trump",
+            "election": 20,
+            "party": "Republican",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Put description here</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/zkiA3YH.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": "<p>I know you want to shake things up and really show the American people a fresh approach to politics, but there are so many better choices you could’ve gone with other than Donald Trump. Trump is a complete outsider to politics, having never held or even run for elected office, with his main claim to fame being a very entertaining public figure who has managed to use his somewhat successful career as a real estate developer to become a pseudo-celebrity of sorts. While the general public do like Trump and seem to be entertained by his antics, that’s really all they think of him as: an entertaining celebrity figure. Trump’s not exactly a person known for his seriousness or competency, and the man’s a registered Republican who is completely out of touch with the American people. I’m not sure what you’re going for here, but I’m sure you have a plan, right?</p>",
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 152,
+        "fields": {
+            "first_name": "George",
+            "last_name": "Bush",
+            "election": 20,
+            "party": "Republican",
+            "state": "Texas",
+            "priority": 1,
+            "description": "<p>George H. W. Bush Is a name well known to the American people. He’s served as chairman of the RNC, Ambassador to the UN, Director of the CIA, and as the incumbent Vice President for the last eight years. After a relatively easy primary victory he hopes to succeed his boss, the ever-popular Ronald Reagan for the presidency. He will have to fight the impression that he’s overly dependent on the President and establish his own strength.</p><p>He’s well known for being a very capable leader and politician, although many consider him to be rather uncharismatic and uninspiring as a moderate career bureaucrat, especially in comparison to the young and dynamic Biden. Bush is now trailing Senator Biden quite badly in the polls and there are still many questions about Iran-Contra, Panama, and Reaganomics that he will have to defend himself from. Can Bush finally establish himself as his own man and become President?</p>",
+            "color_hex": "#960000",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/au9tqFh.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50006,
+        "fields": {
+            "first_name": "Dan",
+            "last_name": "Quayle",
+            "election": 20,
+            "party": "Republican",
+            "state": "Indiana",
+            "priority": 1,
+            "description": "<p>Dan Quayle has been a Senator from Indiana since 1981, and before that was a member of the House and owes his career to Reagan’s landslide win, through which he was able to unseat liberal icon Birch Bayh. Although Quayle is largely seen as rather inexperienced and is little known with the general public, he may be able to pick up some Midwestern and younger voters that may otherwise vote for Biden, and would also help satisfy the hardcore conservatives and a Reagan acolyte. However, his ability and intelligence are somewhat questionable, with many agreeing that Quayle is not quite ready for primetime.</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/3vkOePM.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 154,
+        "fields": {
+            "first_name": "Ron",
+            "last_name": "Paul",
+            "election": 20,
+            "party": "Libertarian-Republican",
+            "state": "Texas",
+            "priority": 1,
+            "description": "<p>Ron Paul is a former Republican Congressman from Texas who has only recently switched his party affiliation to the Libertarians. Paul’s candidacy for the nomination itself has been controversial as the party has long been pro-choice, while Paul has been quite outspokenly anti-abortion. Paul is not especially well-known with the public, but he has a strong record of speaking out against special interests and interventionism. Paul knows he can’t win and is running to send a message.</p>",
+            "color_hex": "#e5eb34",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/mk49mO2.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50008,
+        "fields": {
+            "first_name": "Andre",
+            "last_name": "Marrou",
+            "election": 20,
+            "party": "Libertarian",
+            "state": "Alaska",
+            "priority": 1,
+            "description": "<p>Andre Marrou is a former member of the Alaska House of Representatives, and is about as serious of a politician as the Libertarians can get to run. He would be a fine running mate.</p>",
+            "color_hex": "#0000ff",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/7ykPgAt.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 155,
+        "fields": {
+            "first_name": "Lenora",
+            "last_name": "Fulani & Other Candidates",
+            "election": 20,
+            "party": "New Alliance & Other Parties",
+            "state": "New York",
+            "priority": 1,
+            "description": "<p>Lenora Fulani is a rather controversial progressive activist and psychotherapist running with the equally controversial New Alliance Party. She was involved with numerous progressive causes throughout her life having to do with minority issues. She also stands no chance of winning, especially considering how unorganized her entire candidacy and the party is.</p>",
+            "color_hex": "#2ca853",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/PJbQzxS.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": false
+        }
+    },
+    {
+        "model": "campaign_trail.candidate",
+        "pk": 50010,
+        "fields": {
+            "first_name": "Various",
+            "last_name": "Running Mates",
+            "election": 20,
+            "party": "New Alliance",
+            "state": "United States of America",
+            "priority": 1,
+            "description": "<p>Fulani does not have one running mate and has six different running mates across the country.</p>",
+            "color_hex": "#0000FF",
+            "secondary_color_hex": null,
+            "is_active": 0,
+            "image_url": "https://i.imgur.com/JcDqwve.jpg",
+            "electoral_victory_message": "This guy wins!",
+            "electoral_loss_message": "This guy loses!",
+            "no_electoral_majority_message": "We all win?",
+            "description_as_running_mate": null,
+            "candidate_score": 1,
+            "running_mate": true
+        }
+    }
+]
+
+campaignTrail_temp.running_mate_json = [
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 159636,
+        "fields": {
+            "candidate": 153,
+            "running_mate": 50000
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 112619,
+        "fields": {
+            "candidate": 152,
+            "running_mate": 50006
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 102604,
+        "fields": {
+            "candidate": 154,
+            "running_mate": 50008
+        }
+    },
+    {
+        "model": "campaign_trail.running_mate",
+        "pk": 108757,
+        "fields": {
+            "candidate": 155,
+            "running_mate": 50010
+        }
+    }
+]
+
+campaignTrail_temp.opponents_default_json = [
+    {
+        "election": 20,
+        "candidates": [
+            153,
+            152,
+            154,
+            155
+        ]
+    }
+]
+
+HistHexcolour=["#0043b0","#960000","#e5eb34","#2ca853"];
+HistName=[" Joe Biden"," George Bush"," Ron Paul"," Lenora Fulani & Other Candidates"];
+HistEV=["Decent Majority","Respectable Showing","Zero","Zero"];
+HistPV=["More than Bush","Less than Biden","A little over five hundred thousand","Less than five hundred thousand"];
+HistPVP=["Low 50s","Mid 40s","Over 0.5% but under 1%","Under 0.5%"];
+
+campaignTrail_temp.opponents_weighted_json = [
+    {
+        "election": 20,
+        "candidates": [
+            153,
+            152,
+            154,
+            155
+        ]
+    }
+]
+
+e.difficulty_level_json = [{"model":"campaign_trail.difficulty_level","pk":1,"fields":{"name":"BASED","multiplier":69.0}},{"model":"campaign_trail.difficulty_level","pk":2,"fields":{"name":"Third Party Easy","multiplier":3.5}},{"model":"campaign_trail.difficulty_level","pk":3,"fields":{"name":"Third Party","multiplier":3.3}},{"model":"campaign_trail.difficulty_level","pk":4,"fields":{"name":"Guaranteed","multiplier":1.5}},{"model":"campaign_trail.difficulty_level","pk":5,"fields":{"name":"Babymode","multiplier":1.4}},{"model":"campaign_trail.difficulty_level","pk":6,"fields":{"name":"Cakewalk","multiplier":1.3}},{"model":"campaign_trail.difficulty_level","pk":7,"fields":{"name":"Very Easy","multiplier":1.2}},{"model":"campaign_trail.difficulty_level","pk":8,"fields":{"name":"Easy","multiplier":1.1}},{"model":"campaign_trail.difficulty_level","pk":9,"fields":{"name":"Boosted","multiplier":1.0499}},{"model":"campaign_trail.difficulty_level","pk":10,"fields":{"name":"Normal","multiplier":1.00}},{"model":"campaign_trail.difficulty_level","pk":11,"fields":{"name":"Hindered","multiplier":0.955}},{"model":"campaign_trail.difficulty_level","pk":12,"fields":{"name":"Hard","multiplier":0.9}},{"model":"campaign_trail.difficulty_level","pk":13,"fields":{"name":"Very Hard","multiplier":0.85}},{"model":"campaign_trail.difficulty_level","pk":14,"fields":{"name":"Impossible","multiplier":0.8}},{"model":"campaign_trail.difficulty_level","pk":15,"fields":{"name":"Unthinkable","multiplier":0.7}},{"model":"campaign_trail.difficulty_level","pk":16,"fields":{"name":"Blowout","multiplier":0.6}},{"model":"campaign_trail.difficulty_level","pk":17,"fields":{"name":"Disaster","multiplier":0.5}},{"model":"campaign_trail.difficulty_level","pk":18,"fields":{"name":"NOT BASED","multiplier":0.0}}];
+
+jet_data = {
+    "headerColor": "#32a2cf",
+    "windowColor": "#e8091c",
+    "containerColor": "#FFFFFF",
+    "innerWindowColor": "#e8091c",
+    "bannerImageUrl": "https://i.imgur.com/Uj3c4dj.jpg",
+    "backgroundImageUrl": "https://i.imgur.com/A7svxdC.jpg",
+    "endingTextColor": "#ffffff",
+    "customQuote": "Why is it that Joe Biden is the first in his family ever to go to a university?",
+    "gameTitle": "ALL ABOARD THE BIDEN EXPRESS"
+    
+}
+
+//#startcode
+
+
+corrr = '\n              <h2>ALL ABOARD THE BIDEN EXPRESS</h2><font id="wittyquote" size="4" color="white"><em>Why is it that Joe Biden is the first in his family ever to go to a university?</em></font>\n            ';
+
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_title = "#32a2cf"
+
+nct_stuff.themes[nct_stuff.selectedTheme].coloring_window = "#e8091c"
+
+$("#game_window")[0].style.backgroundColor = "#a1161d"
+
+document.getElementsByClassName("game_header")[0].style.backgroundColor = nct_stuff.themes[nct_stuff.selectedTheme].coloring_title
+
+$(".container")[0].style.backgroundColor = "#158cbf"
+
+document.getElementById("header").src = "https://i.imgur.com/Uj3c4dj.jpg";
+
+document.body.background = "https://i.imgur.com/A7svxdC.jpg";
+
+document.head.innerHTML += "<style>#results_container {color:#ffffff;} .inner_window_w_desc {background-color:#e8091c!important;}</style>";
+
+//#endcode
